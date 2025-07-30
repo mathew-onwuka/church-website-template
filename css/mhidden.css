@@ -1,0 +1,52 @@
+@media (max-width: 490px) {
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.cov{
+	width: 100%;
+	height: 500px;
+	background-color: lightgreen;
+	position: relative;
+	margin: 0;
+	padding: 0
+}
+
+.cov .repr{
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-color: skyblue;
+	top: 0;
+	left: 0;
+}
+
+.cov .repr .clse{
+	position: absolute;
+	top: 18px;
+	left: 250px;
+}
+
+.cov .repr .hide{
+	width: 60%;
+	height: 120px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-color: #CCCCCC;
+	top: 0;
+	left: 0;
+}
+
+}
